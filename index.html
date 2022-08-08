@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="//db.onlinewebfonts.com/c/3135c98efb051f346203c2f2ed708638?family=Engravers+MT" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Nosotros</a></li>
+            <li><a href="#about" onclick="toggleMenu();">Nuestra historia</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Servicios</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Productos</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contacto</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="text">
+            <h2>Hola! Soy <br><span>Jorge Emilio García.</span></h2>
+            <h3>Soy un desarrollador de Frontend.</h3>
+            <a href="#about" class="btn">Nuestra historia</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>Nuestra historia</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Soy un desarrollador de Frontend.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere incidunt illum rerum, minima laboriosam numquam quae consectetur dicta ut explicabo ex, accusantium voluptate saepe amet adipisci est rem enim qui!<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, soluta amet! Fuga perferendis, facere necessitatibus facilis corrupti nisi quam nostrum id doloremque soluta qui ab? Dolorem itaque et veniam? Fuga.</p>
+            </div>
+            <div class="w50">
+                <img src="assets/img1.jpg" class="img">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading whte">
+            <h2>Servicios</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="assets/icon1.png">
+                <h2>Diseño Web</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="assets/icon2.png">
+                <h2>Desarrollo Web</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="assets/icon3.png">
+                <h2>Programación con Flutter</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="assets/icon4.png">
+                <h2>Grabar TikToks</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="assets/icon5.png">
+                <h2>Diseño de ejercicios</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="assets/icon6.png">
+                <h2>Canal de YouTube</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Productos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="assets/product1.jpg">
+            </div>
+            <div class="workBx">
+                <img src="assets/product2.jpg">
+            </div>
+            <div class="workBx">
+                <img src="assets/product3.jpg">
+            </div>
+            <div class="workBx">
+                <img src="assets/product4.jpg">
+            </div>
+        </div>
+        <div class="heading">
+            <a href="#" class="btn inv">Ver más</a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading whte">
+            <h2>Contacto</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Información de contacto</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-instagram"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Dirección</h3>
+                            <p>1234 Mexico mexico,<br>Información extra,<br>2345667</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Teléfono</h3>
+                            <p>5566590609</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Correo electrónico</h3>
+                            <p>coreo@mail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Mándame un mensaje</h3>
+                    <input type="text" name="" placeholder="Nombre completo">
+                    <input type="email" name="" placeholder="Correo electrónico">
+                    <textarea placeholder="Deja tú mensaje"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright © 2020 CABINA DE BELLEZA GALA. All Right Reserved</p>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', ()=>{
+            let header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+        function toggleMenu(){
+            let menuToggle = document.querySelector('.toggle');
+            let menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+
+    </script>
+    
+</body>
+</html>
